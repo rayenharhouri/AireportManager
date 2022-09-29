@@ -1,0 +1,12 @@
+A:\.NetProjects\AirportManagement\AM.ApplicationCore\bin\Debug\net6.0\AM.ApplicationCore.deps.json
+A:\.NetProjects\AirportManagement\AM.ApplicationCore\bin\Debug\net6.0\AM.ApplicationCore.dll
+A:\.NetProjects\AirportManagement\AM.ApplicationCore\bin\Debug\net6.0\AM.ApplicationCore.pdb
+A:\.NetProjects\AirportManagement\AM.ApplicationCore\obj\Debug\net6.0\AM.ApplicationCore.csproj.AssemblyReference.cache
+A:\.NetProjects\AirportManagement\AM.ApplicationCore\obj\Debug\net6.0\AM.ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+A:\.NetProjects\AirportManagement\AM.ApplicationCore\obj\Debug\net6.0\AM.ApplicationCore.AssemblyInfoInputs.cache
+A:\.NetProjects\AirportManagement\AM.ApplicationCore\obj\Debug\net6.0\AM.ApplicationCore.AssemblyInfo.cs
+A:\.NetProjects\AirportManagement\AM.ApplicationCore\obj\Debug\net6.0\AM.ApplicationCore.csproj.CoreCompileInputs.cache
+A:\.NetProjects\AirportManagement\AM.ApplicationCore\obj\Debug\net6.0\AM.ApplicationCore.dll
+A:\.NetProjects\AirportManagement\AM.ApplicationCore\obj\Debug\net6.0\refint\AM.ApplicationCore.dll
+A:\.NetProjects\AirportManagement\AM.ApplicationCore\obj\Debug\net6.0\AM.ApplicationCore.pdb
+A:\.NetProjects\AirportManagement\AM.ApplicationCore\obj\Debug\net6.0\ref\AM.ApplicationCore.dll
