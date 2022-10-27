@@ -21,7 +21,7 @@ namespace AM.ApplicationCore.Domain
         }
          
 
-        public int Capacity { get; set; }
+        public int? Capacity { get; set; }
         public DateTime ManufactureDate { get; set; }
         public int PlaneId { get; set; }
         public PlaneType PlaneType { get; set; }

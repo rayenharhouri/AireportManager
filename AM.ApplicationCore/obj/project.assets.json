@@ -8,26 +8,27 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\anash\\.nuget\\packages\\": {}
+    "C:\\Users\\MSI\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "A:\\.NetProjects\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
+      "projectUniqueName": "C:\\Users\\MSI\\Downloads\\Atelier2-.net\\Atelier2-.net\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
       "projectName": "AM.ApplicationCore",
-      "projectPath": "A:\\.NetProjects\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
-      "packagesPath": "C:\\Users\\anash\\.nuget\\packages\\",
-      "outputPath": "A:\\.NetProjects\\AirportManagement\\AM.ApplicationCore\\obj\\",
+      "projectPath": "C:\\Users\\MSI\\Downloads\\Atelier2-.net\\Atelier2-.net\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
+      "packagesPath": "C:\\Users\\MSI\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\MSI\\Downloads\\Atelier2-.net\\Atelier2-.net\\AM.ApplicationCore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\anash\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\MSI\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {

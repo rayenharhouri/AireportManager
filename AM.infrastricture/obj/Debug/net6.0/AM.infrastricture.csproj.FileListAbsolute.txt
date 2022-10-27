@@ -1,0 +1,17 @@
+C:\Users\MSI\Downloads\Atelier2-.net\Atelier2-.net\AM.infrastricture\bin\Debug\net6.0\AM.infrastricture.deps.json
+C:\Users\MSI\Downloads\Atelier2-.net\Atelier2-.net\AM.infrastricture\bin\Debug\net6.0\AM.infrastricture.runtimeconfig.json
+C:\Users\MSI\Downloads\Atelier2-.net\Atelier2-.net\AM.infrastricture\bin\Debug\net6.0\AM.infrastricture.dll
+C:\Users\MSI\Downloads\Atelier2-.net\Atelier2-.net\AM.infrastricture\bin\Debug\net6.0\AM.infrastricture.pdb
+C:\Users\MSI\Downloads\Atelier2-.net\Atelier2-.net\AM.infrastricture\bin\Debug\net6.0\AM.ApplicationCore.dll
+C:\Users\MSI\Downloads\Atelier2-.net\Atelier2-.net\AM.infrastricture\bin\Debug\net6.0\AM.ApplicationCore.pdb
+C:\Users\MSI\Downloads\Atelier2-.net\Atelier2-.net\AM.infrastricture\obj\Debug\net6.0\AM.infrastricture.csproj.AssemblyReference.cache
+C:\Users\MSI\Downloads\Atelier2-.net\Atelier2-.net\AM.infrastricture\obj\Debug\net6.0\AM.infrastricture.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MSI\Downloads\Atelier2-.net\Atelier2-.net\AM.infrastricture\obj\Debug\net6.0\AM.infrastricture.AssemblyInfoInputs.cache
+C:\Users\MSI\Downloads\Atelier2-.net\Atelier2-.net\AM.infrastricture\obj\Debug\net6.0\AM.infrastricture.AssemblyInfo.cs
+C:\Users\MSI\Downloads\Atelier2-.net\Atelier2-.net\AM.infrastricture\obj\Debug\net6.0\AM.infrastricture.csproj.CoreCompileInputs.cache
+C:\Users\MSI\Downloads\Atelier2-.net\Atelier2-.net\AM.infrastricture\obj\Debug\net6.0\AM.infrastricture.csproj.CopyComplete
+C:\Users\MSI\Downloads\Atelier2-.net\Atelier2-.net\AM.infrastricture\obj\Debug\net6.0\AM.infrastricture.dll
+C:\Users\MSI\Downloads\Atelier2-.net\Atelier2-.net\AM.infrastricture\obj\Debug\net6.0\refint\AM.infrastricture.dll
+C:\Users\MSI\Downloads\Atelier2-.net\Atelier2-.net\AM.infrastricture\obj\Debug\net6.0\AM.infrastricture.pdb
+C:\Users\MSI\Downloads\Atelier2-.net\Atelier2-.net\AM.infrastricture\obj\Debug\net6.0\AM.infrastricture.genruntimeconfig.cache
+C:\Users\MSI\Downloads\Atelier2-.net\Atelier2-.net\AM.infrastricture\obj\Debug\net6.0\ref\AM.infrastricture.dll

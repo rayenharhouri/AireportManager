@@ -1,5 +1,6 @@
 ﻿using AM.ApplicationCore.Domain;
 using AM.ApplicationCore.Services;
+using AM.ApplicationCore;
 
 
 /*Passenger passenger1 = new Passenger();
@@ -56,8 +57,60 @@ foreach (DateTime date in sf.GetFlightDatesWithForEach("Paris"))
 };
 */
 
-    foreach (Flight flight in sf.GetFlights("estimated duration", "105")
+   // foreach (Flight flight in sf.GetFlights("estimated duration", "105")
+/*
 )
 {
     Console.WriteLine(flight);
-};
+}*/
+
+ static List<Flight> findDestination(String dest,IList<Flight> flights) {
+    List<Flight> result = new List<Flight>();
+    foreach( Flight flight in flights)
+    {
+        if(flight.Destination == dest)
+        {
+            result.Add(flight);
+            
+        }
+    }
+    return result;
+}
+
+ServiceFlight sv = new ServiceFlight();
+/*sv.GetFlightsD=findDestination;
+
+foreach (Flight flight in sv.GetFlightsD("Paris",sv.Flights))
+{
+    Console.WriteLine(flight);
+};*/
+
+
+
+static bool flightsByDate(Flight flight,String date)
+{
+    return flight.FlightDate==DateTime.Parse(date);
+}
+
+
+static bool flightsByDest(Flight flight, String dest)
+{
+    return flight.Destination == dest;
+}
+
+sv.find("15/10/2022", delegate(Flight flight,String date)
+{
+    return flight.FlightDate == DateTime.Parse(date);
+
+});
+sv.find("Paris", (Flight flight,String destination) =>
+{
+    return flight.Destination == destination;
+
+});
+
+int x = 3;
+
+x.Add(9);
+
+
