@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using AM.ApplicationCore.Domain;
+using AM.infrastricture.Configuration;
 
 namespace AM.infrastricture
 {
@@ -14,6 +15,14 @@ namespace AM.infrastricture
         {
             optionsBuilder.UseSqlServer(@"data source = (localDb)\msSqlLocalDb; initial catalog = AirPortManagementDb; integrated security = true");
         }
+        
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.ApplyConfiguration(new PassengerConfiguration());
+            modelBuilder.ApplyConfiguration(new FlightConfiguration());
 
+
+        }
+        
     }
 }

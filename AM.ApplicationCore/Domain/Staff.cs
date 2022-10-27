@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Net.Mail;
 using System.Text;
@@ -24,6 +25,7 @@ namespace AM.ApplicationCore.Domain
             DateTime birthDate,
             string phoneNumber, 
             DateTime employmentDate,
+            [DataType(DataType.Currency)]
             float salary,
             string function) : base(passportNumber, firstName, lastName, emailAddress, birthDate, phoneNumber)
         {

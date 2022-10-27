@@ -1,6 +1,7 @@
 ﻿using System; // same as import in java (des namespace)
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Globalization;
 using System.Linq;
 using System.Text;
@@ -32,15 +33,26 @@ namespace AM.ApplicationCore.Domain
 
         /*propriete*/
         [Key]
+        [StringLength(7)]
         public string PassportNumber { get; set; }
+
+        [MinLength(3)]
+        [MaxLength(25, ErrorMessage = "erreur")]
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public string EmailAddress  { get; set; }
-        public DateTime BirthDate { get; set; } 
-        public string PhoneNumber   { get; set; }
-        
-       // public int Id {get; set; }
 
+        [DataType(DataType.EmailAddress)]
+        public string EmailAddress  { get; set; }
+
+        [Display(Name ="day of birth")]
+        [DataType(DataType.Date)]
+        public DateTime BirthDate { get; set; }
+
+        [RegularExpression("[0-9]{8}")]
+        public string PhoneNumber   { get; set; }
+
+        // public int Id {get; set; }
+        [ForeignKey("Flights_FK")]
         public IList<Flight> Flights { get; set; }
 
 
